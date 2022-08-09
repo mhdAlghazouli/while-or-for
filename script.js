@@ -40,6 +40,12 @@
 //                                         //  [ 'corolla' ]
 //                                               //  []
 
+
+
+
+
+
+
 // // Function `printNumbers()` prints numbers from 1 to 10 using for loop.
 
 // function printNumbers() {
@@ -47,7 +53,25 @@
 //             console.log(i);
 //       };
 // };
+
+
+// function printNumbers() {
+//       let counter = 1;
+//       while(counter <= 10) {
+//             console.log(counter);
+//             counter++;
+//       };
+// };
+
 // printNumbers(); //1 2 3 4 5 6 7 8 9 10
+
+
+
+
+
+
+
+
 
 
 // // Function `printArray()` prints all the elements of a 2D array using nested for loops.
@@ -62,7 +86,34 @@
 //             };
 //       };
 // };
+
+
+// function printArray(arr1){
+//       let counter = 0;
+
+//       while(counter < arr1.length){
+
+//             let char = arr1[counter];
+//             let counter1 = 0;
+
+//             while(counter1 < char.length){
+
+//                   console.log(char[counter1]);
+//                   counter1++;
+//             };
+//             counter++;
+//       };
+// };
+
+
 // printArray(arr1); //1 2 3 4 5 6
+
+
+
+
+
+
+
 
 
 
@@ -92,6 +143,12 @@
 //             counter ++
 //       }
 // }
+
+
+
+
+
+
 
 
 
@@ -130,6 +187,11 @@
 // }
 
 // console.log(deleteElement(arr3,56)); //[23, 4, 78, 5, 63, 45, 210]
+
+
+
+
+
 
 
 
